@@ -1,6 +1,8 @@
 <template>
   <div>
+    <Headercmp title="ไม้จิ้มฟัน ราคาถูก" link="https://business.facebook.com/casiojib/?ref=your_pages" />
     <Nuxt />
+    <Footercmp title="ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร" />
   </div>
 </template>
 

@@ -1,34 +1,60 @@
 <template>
-  <div class="container">
+  <div class="">
     <div>
-      <Logo />
-      <h1 class="title">
-        landing-page-w
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <SectionOne />
+      <SectionTwo link="https://business.facebook.com/casiojib/?ref=your_pages" />
+      <SectionProduct link="https://business.facebook.com/casiojib/?ref=your_pages" />
+      <!-- <Logo /> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import { mapMutations } from 'vuex'
+export default {
+  data () {
+    return {
+    }
+  },
+  methods: {
+    detectMob() {
+      const toMatch = [
+          /Android/i,
+          /webOS/i,
+          /iPhone/i,
+          /iPad/i,
+          /iPod/i,
+          /BlackBerry/i,
+          /Windows Phone/i
+      ];
+
+      return toMatch.some((toMatchItem) => {
+          return navigator.userAgent.match(toMatchItem);
+      });
+    }
+  },
+  mounted() {
+  },
+  created() {
+    this.$store.commit('global/setMob', this.detectMob());
+    console.log('--> detectMob:', this.$store.state.global.isMob);
+    // find location
+    fetch('https://extreme-ip-lookup.com/json/')
+    .then( res => res.json())
+    .then(response => {
+        if (response.country.toLowerCase() == 'thailand') {
+          this.$store.commit('global/setCountry', true);
+        } else {
+          this.$store.commit('global/setCountry', false);
+        }
+        console.log("Country: ", this.$store.state.global.isThailand);
+    })
+    .catch((data, status) => {
+        console.log('Request failed');
+        this.$store.commit('global/setCountry', false);
+    });
+  }
+}
 </script>
 
 <style>
@@ -67,7 +93,4 @@ export default {}
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>

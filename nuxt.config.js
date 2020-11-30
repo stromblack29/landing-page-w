@@ -7,11 +7,19 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'landing-page-w',
+    title: 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร' }
+    ],
+    script: [
+      {
+        hid: 'global-js', src: 'https://www.googletagmanager.com/gtag/js?id=AW-475331606', defer: true
+      },
+      {
+        hid: 'global-use-js', src: '/global-site.js'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -31,6 +39,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    'bootstrap-vue/nuxt'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -39,5 +48,8 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    babel: {
+      compact: true
+    }
   }
 }
