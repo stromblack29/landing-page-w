@@ -14,7 +14,7 @@
                         </div>
                         <h6 class="info-title text-uppercase text-primary">Social Conversations</h6>
                         <p class="description opacity-8">We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand.</p>
-                        <a @click="handleTagLink" href="" class="text-primary">More about us
+                        <a :href="Link" class="text-primary">More about us
                         </a>
                     </div>
                  </b-col>
@@ -25,7 +25,7 @@
                         </div>
                         <h6 class="info-title text-uppercase text-success">Analyze Performance</h6>
                         <p class="description opacity-8">Don't get your heart broken by people we love, even that we give them all we have. Then we lose family over time. As we live, our hearts turn colder.</p>
-                        <a @click="handleTagLink" href='' class="text-primary">Learn about our products
+                        <a :href='Link' class="text-primary">Learn about our products
                         </a>
                     </div>
                 </b-col>

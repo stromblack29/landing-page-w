@@ -4,7 +4,7 @@
     <b-navbar toggleable :type="isScroll ? 'dark' : 'light'" :variant="isScroll ? 'dark' : 'light'" fixed="top">
       <b-navbar-brand tag="h1" class="mb-0">{{ Title }}</b-navbar-brand>
       <b-navbar-nav class="ml-auto">
-        <b-button size="md" class="my-2 my-sm-0" :variant="isScroll ? 'outline-success' : 'success'"  v-on:click="handleTagLink" href="#">สมัครสมาชิก</b-button>
+        <b-button size="md" class="my-2 my-sm-0" :variant="isScroll ? 'outline-success' : 'success'" :href="Link">สมัครสมาชิก</b-button>
       </b-navbar-nav>
     </b-navbar>
     <!-- banner -->
@@ -31,7 +31,7 @@
                 <h2 class="display-4 font-weight-normal text-white">ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร</h2>
                 
                 <div class="btn-wrapper mt-4">
-                  <a v-on:click="handleTagLink" class="btn btn-warning btn-icon mt-3 mb-sm-0">
+                  <a :href="Link" class="btn btn-warning btn-icon mt-3 mb-sm-0">
                     <!-- <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span> -->
                     <span class="btn-inner--text">Play now</span>
                   </a>

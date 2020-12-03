@@ -9,7 +9,7 @@
                 <template v-for="(i,index) in 6">
                  <b-col col lg="4" md :key="index">
                      <div class="info">
-                        <a @click='handleTagLink' href=''>
+                        <a :href="Link">
                         <div class="icon icon-lg icon-shape icon-shape-info shadow rounded-circle">
                             <b-img-lazy v-if="index == 0" src="../assets/images/product-1.jpg" rounded="circle" fluid-grow></b-img-lazy>
                             <b-img-lazy v-else-if="index == 1" src="../assets/images/product-2.jpg" rounded="circle" fluid-grow></b-img-lazy>
@@ -21,7 +21,7 @@
                         </a>
                         <h6 class="info-title text-uppercase text-primary">ไม้จิ้มฟัน {{ index + 1 }}</h6>
                         <p class="description opacity-8">ไม้จิ้มฟันประเภท {{ index +1 }}.</p>
-                        <a @click="handleTagLink" href='' class="text-primary">More Detail
+                        <a :href='Link' class="text-primary">More Detail
                         </a>
                     </div>
                  </b-col>
