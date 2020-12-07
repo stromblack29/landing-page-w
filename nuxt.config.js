@@ -3,11 +3,11 @@ export default {
   ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร',
+    title: 'circus789 บาบาร่า | สล็อคออนไลน์',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร' }
+      { hid: 'description', name: 'description', content: 'ขายไม้จิ้มฟันสมุนไพร ระบบฝากถอนอัตโนมัติ 30 วินาที ทุกสลิปมีค่าแลกของรางวัลฟรี ยินดีให้บริการ ค่ายเกมส์เยอะที่สุดในเอเซีย สนใจรายละเอียดโปรโมชั่นติดต่อสอบถามได้ตลอดเวลา เราให้บริการ 24 ชม.' }
     ],
     script: [
       {
@@ -25,7 +25,6 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
-
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
   ],
@@ -37,15 +36,12 @@ export default {
   buildModules: [
     'bootstrap-vue/nuxt'
   ],
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    babel: {
-      compact: true
-    }
-  }
+    babel: { compact: true }
+  },
 }

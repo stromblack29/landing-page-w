@@ -1,10 +1,14 @@
 <template>
   <div class="">
-    <div>
-      <SectionOne />
-      <SectionTwo link="https://business.facebook.com/casiojib/?ref=your_pages" />
-      <SectionProduct link="https://business.facebook.com/casiojib/?ref=your_pages" />
-      <!-- <Logo /> -->
+    <div v-if="isWhite === true">
+      <WSectionOne :link="Link" />
+      <WSectionTwo :link="Link" />
+      <WSectionProduct :link="Link" />
+    </div>
+    <div v-else>
+      <LandingSectionOne :link="Link" />
+      <LandingSectionTwo :link="Link" />
+      <LandingSectionProduct :link="Link" />
     </div>
   </div>
 </template>
@@ -12,8 +16,14 @@
 <script>
 import { mapMutations } from 'vuex'
 export default {
+  computed: {
+    Link () {
+      return this.isWhite === true ? 'https://business.facebook.com/casiojib/?ref=your_pages' : 'https://circus789.com/register.php';
+    }
+  },
   data () {
     return {
+      isWhite: true
     }
   },
   methods: {
