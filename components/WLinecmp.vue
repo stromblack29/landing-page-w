@@ -1,7 +1,7 @@
 <template>
     <div class="links">
         <div class="text-center mt-4">
-            <a href="https://lin.ee/sDepxjZ" rel="nofollow"><img src="~/assets/images/add-line.png" width="250px" alt="Add line"></a>
+            <a href="https://lin.ee/6zOZZHz" rel="nofollow"><img src="~/assets/images/add-line.png" width="250px" alt="Add line"></a>
         </div>
     </div>
 </template>
