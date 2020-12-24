@@ -31,7 +31,7 @@
                 <h2 class="display-4 font-weight-normal text-white">ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร</h2>
                 
                 <div class="btn-wrapper mt-4">
-                  <a href="https://lin.ee/6zOZZHz" class="btn btn-warning btn-icon mt-3 mb-sm-0">
+                  <a :href="Link" class="btn btn-warning btn-icon mt-3 mb-sm-0">
                     <!-- <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span> -->
                     <span class="btn-inner--text">Play now</span>
                   </a>
