@@ -22,7 +22,7 @@ export default {
   },
   data () {
     return {
-      isWhite: true
+      isWhite: false
     }
   }
 }
