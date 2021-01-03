@@ -18,7 +18,7 @@ import { mapMutations } from 'vuex'
 export default {
   computed: {
     Link () {
-      return this.isWhite === true ? 'https://lin.ee/6zOZZHz' : 'https://circus789.com/register.php';
+      return this.isWhite === true ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
     }
   },
   data () {
