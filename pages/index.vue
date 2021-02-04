@@ -18,12 +18,14 @@ import { mapMutations } from 'vuex'
 export default {
   computed: {
     Link () {
-      return this.isWhite === true ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
+      return !this.$store.state.global.isMob ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
+    },
+    isWhite () {
+      return !this.$store.state.global.isMob;
     }
   },
   data () {
     return {
-      isWhite: false
     }
   },
   methods: {

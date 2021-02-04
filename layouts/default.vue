@@ -12,17 +12,31 @@
 </template>
 <script>
 export default {
+  head() {
+    return {
+      title: this.Title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'ขายไม้จิ้มฟันสมุนไพร ระบบฝากถอนอัตโนมัติ 30 วินาที ทุกสลิปมีค่าแลกของรางวัลฟรี ยินดีให้บริการ ค่ายเกมส์เยอะที่สุดในเอเซีย สนใจรายละเอียดโปรโมชั่นติดต่อสอบถามได้ตลอดเวลา เราให้บริการ 24 ชม.',
+        }
+      ]
+    }
+  },
   computed: {
     Title () {
-      return this.isWhite === true ? 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร' : 'circus789 บาบาร่า | สล็อคออนไลน์';
+      return !this.$store.state.global.isMob ? 'ไม้จิ้มฟัน ราคาถูก | ทำมาจากสมุนไพร' : 'circus789 บาบาร่า | สล็อคออนไลน์';
     },
     Link () {
-      return this.isWhite === true ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
+      return !this.$store.state.global.isMob === true ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
+    },
+    isWhite () {
+      return !this.$store.state.global.isMob;
     }
   },
   data () {
     return {
-      isWhite: false
     }
   }
 }
