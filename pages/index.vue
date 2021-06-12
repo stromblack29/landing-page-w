@@ -1,5 +1,14 @@
 <template>
-  <div class="">
+  <div class="containerp-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="https://lin.ee/6zOZZHz">
+          <img class="img-fluid" src="../assets/images/bg_new.jpg" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="">
     <div v-if="isWhite === true">
       <WSectionOne :link="Link" />
       <WSectionTwo :link="Link" />
@@ -10,7 +19,7 @@
       <LandingSectionTwo :link="Link" />
       <LandingSectionProduct :link="Link" />
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>

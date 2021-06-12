@@ -1,13 +1,13 @@
 <template>
   <div>
-    <template v-if="isWhite === true">
+    <!-- <template v-if="isWhite === true">
       <WHeader :title="Title" :link="Link" />
     </template>
     <template v-else>
       <LandingHeader :title="Title" :link="Link" />
-    </template>
+    </template> -->
     <Nuxt />
-    <LandingFooter :title="Title" />
+    <!-- <LandingFooter :title="Title" /> -->
   </div>
 </template>
 <script>
