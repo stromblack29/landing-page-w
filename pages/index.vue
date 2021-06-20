@@ -1,10 +1,13 @@
 <template>
-  <div class="containerp-fluid">
+  <div class="containerp-fluid" style="background-color: black;">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <a href="https://lin.ee/6zOZZHz">
+        <a href="https://www.circus789.com/register.php">
           <img class="img-fluid" src="../assets/images/bg_new.jpg" />
         </a>
+      </div>
+      <div class="col-lg-12 text-center" style="margin: 8px">
+        <a href="https://www.circus789.com/register.php" class="btn btn-success btn-lg" role="button"><img src="~/assets/images/add-line.png" width="250px" alt="Add line"></a>
       </div>
     </div>
   </div>
