@@ -7,7 +7,7 @@
         </a>
       </div>
       <div class="col-lg-12 text-center" style="margin: 8px">
-        <a href="https://www.circus789.com/register.php" class="btn btn-success btn-lg" role="button"><img src="~/assets/images/add-line.png" width="250px" alt="Add line"></a>
+        <a href="https://www.circus789.com/register.php"><img src="../assets/images/register.jpg" width="250px" alt="Add line"></a>
       </div>
     </div>
   </div>
