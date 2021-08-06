@@ -2,12 +2,12 @@
   <div class="containerp-fluid" style="background-color: black;">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <a href="https://www.circus789.com/register.php">
+        <a :href="Link">
           <img class="img-fluid" src="../assets/images/bg_new.jpg" />
         </a>
       </div>
       <div class="col-lg-12 text-center" style="margin: 8px">
-        <a href="https://www.circus789.com/register.php"><img src="../assets/images/register.jpg" width="250px" alt="Add line"></a>
+        <a :href="Link"><img src="../assets/images/register.jpg" width="250px" alt="Add line"></a>
       </div>
     </div>
   </div>
@@ -30,7 +30,7 @@ import { mapMutations } from 'vuex'
 export default {
   computed: {
     Link () {
-      return !this.$store.state.global.isMob ? 'https://lin.ee/6zOZZHz' : 'https://lin.ee/6zOZZHz';
+      return true ? 'https://line.me/R/ti/p/%40899jhnsz' : 'https://www.circus789.com/register.php';
     },
     isWhite () {
       return !this.$store.state.global.isMob;
