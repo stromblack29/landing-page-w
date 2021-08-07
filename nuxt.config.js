@@ -3,11 +3,11 @@ export default {
   ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'circus789 บาบาร่า | สล็อคออนไลน์',
+    title: 'cirgameth.com-ศูนย์รวมไม้จิ้มฟัน ',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'ขายไม้จิ้มฟันสมุนไพร ระบบฝากถอนอัตโนมัติ 30 วินาที ทุกสลิปมีค่าแลกของรางวัลฟรี ยินดีให้บริการ ค่ายเกมส์เยอะที่สุดในเอเซีย สนใจรายละเอียดโปรโมชั่นติดต่อสอบถามได้ตลอดเวลา เราให้บริการ 24 ชม.' }
+      { hid: 'description', name: 'description', content: 'สมัครสมาชิก cirgameth ศูนย์รวมของลิขสิทธิ์ พร้อมจัดจำหน่ายทั่วประเทศไทย มีแอดมินตอบ 24 ชม' }
     ],
     script: [
       {

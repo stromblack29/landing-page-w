@@ -30,7 +30,7 @@ import { mapMutations } from 'vuex'
 export default {
   computed: {
     Link () {
-      return true ? 'https://line.me/R/ti/p/%40899jhnsz' : 'https://www.circus789.com/register.php';
+      return false ? 'https://line.me/R/ti/p/%40899jhnsz' : 'https://www.circus789.com/register.php';
     },
     isWhite () {
       return !this.$store.state.global.isMob;
