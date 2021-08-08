@@ -10,6 +10,10 @@
         <a :href="Link"><img src="../assets/images/register.jpg" width="250px" alt="Add line"></a>
       </div>
     </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV4FZJD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </div>
   <!-- <div class="">
     <div v-if="isWhite === true">

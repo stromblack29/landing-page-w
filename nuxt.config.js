@@ -15,6 +15,9 @@ export default {
       },
       {
         hid: 'global-use-js', src: '/global-site.js'
+      },
+      {
+        hid: 'seo-js', src: '/seo.js'
       }
     ],
     link: [
