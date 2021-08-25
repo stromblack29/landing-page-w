@@ -1,13 +1,41 @@
 <template>
   <div class="containerp-fluid" style="background-color: black;">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-md-12 text-center">
         <a :href="Link">
-          <img class="img-fluid" src="../assets/images/bg_new.jpg" />
+          <img class="img-fluid" src="../assets/images/top_image_1.gif" />
         </a>
       </div>
-      <div class="col-lg-12 text-center" style="margin: 8px">
-        <a :href="Link"><img src="../assets/images/register.jpg" width="250px" alt="Add line"></a>
+      <div class="col-md-12 text-center">
+        <a :href="Link"><img class="img-fluid" src="../assets/images/line_register.gif" alt="Add line"></a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link">
+          <img class="img-fluid" src="../assets/images/second_image.gif" />
+        </a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link">
+          <img class="img-fluid" src="../assets/images/top_image.gif" />
+        </a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link">
+          <img class="img-fluid" src="../assets/images/3_image.gif" />
+        </a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link">
+          <img class="img-fluid" src="../assets/images/4_image.gif" />
+        </a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link">
+          <img class="img-fluid" src="../assets/images/5_image.gif" />
+        </a>
+      </div>
+      <div class="col-md-12 text-center">
+        <a :href="Link"><img class="img-fluid" src="../assets/images/line_register.gif" alt="Add line"></a>
       </div>
     </div>
     <!-- Google Tag Manager (noscript) -->
