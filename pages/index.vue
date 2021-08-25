@@ -1,5 +1,5 @@
 <template>
-  <div class="containerp-fluid" style="background-color: black;">
+  <div class="containerp-fluid">
     <div class="row">
       <div class="col-md-12 text-center">
         <a :href="Link">
@@ -114,6 +114,11 @@ export default {
 </script>
 
 <style>
+body {
+  background-image: url("../assets/images/bg_sea.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
