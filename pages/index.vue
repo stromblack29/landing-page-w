@@ -1,7 +1,7 @@
 <template>
   <div class="containerp-fluid">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center pt-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/top_image_1.gif" />
         </a>
@@ -9,27 +9,27 @@
       <div class="col-md-12 text-center">
         <a :href="Link"><img class="img-fluid" src="../assets/images/line_register.gif" alt="Add line"></a>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center py-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/second_image.gif" />
         </a>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center py-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/top_image.gif" />
         </a>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center py-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/3_image.gif" />
         </a>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center py-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/4_image.gif" />
         </a>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center py-3">
         <a :href="Link">
           <img class="img-fluid" src="../assets/images/5_image.gif" />
         </a>
