@@ -16,9 +16,9 @@ export default {
       {
         hid: 'global-use-js', src: '/global-site.js'
       },
-      // {
-      //   hid: 'seo-js', src: '/seo.js'
-      // }
+      {
+       hid: 'seo-js', src: '/seo.js'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/logo.ico' }
